@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Journey</title>
+    <link rel="stylesheet" type="text/css" href="../css/journey.css">
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+  </head>
+  <body>
+
+    <nav id="navigation">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">chlshng's blog</label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="active" href="journey.html">My Journey</a></li>
+        <li><a class="active" href="study.html">Works</a></li>
+        <li><a class="active" href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="mainContent">
+        <h1 class="intro">Journey</h1>
+        <p class="intro">These are my milestones and achievements so far...</p>
+
+        <div class="accordion">
+          <div class="contentBx">
+            <div class="label">CCA</div>
+            <div class="content">
+              <table border="1" bordercolor="#fff">
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/inter2019.jpg">
+                    <img class="landscape" src="../img/Misc/national2019.jpg">
+                    <p class="para"><em>National Inter-School Taekwondo Championship & 46th National Taekwondo Kyorugi Championship 2019 </em><br>Obtained 2nd & 4th placing for Inter-School and 1st place for Nationals</p></td>
+                </tr>
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/inter2018.jpg">  
+                    <p class="para"><em>National Inter-School Taekwondo Championship 2018</em><br>My first time representing my secondary school in a competition which my team and I clinched the Champion title.</p></td>
+                </tr>
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/2017cca.jpg">
+                    <p class="para"><em>National Inter-School Taekwondo Championship 2017</em><br>Obtained 2nd & 3rd placing</p></td>
+                </tr>
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/awardsssc.jpg">
+                    <p class="para"><em>Singapore Schools Sports Council Colours Award</em><br>Awarded in 2017,2018,2019</p></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">Community</div>
+            <div class="content">
+              <table border="1" bordercolor="#fff">
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/awwa event 2019.jpg">
+                    <p class="para"><em>AWWA Event Preperation</em><br>We prepared a line of activities for the eldery to enjoy from karaoke session to bingo sessions.</p></td>
+                </tr>
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/fooddistri.png">  
+                    <p class="para"><em>Food Distribution To AWWA elderly</em><br> We guided the elderly around the school to look at the Chinese New Year decorations and did some bonding activities such as building a terrarium then watched the CNY concert.Subsequently we served them food.</p></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">Awards</div>
+            <div class="content">
+              <table border="1" bordercolor="#fff">
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/studentaaward1.jpg">
+                    <img class="landscape" src="../img/Misc/studentaward2.jpg">
+                    <p class="para"><em>Student Award 2020 </em><br> Most Proative, Best Team Player </p></td>
+                </tr>
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/mfaward.jpg">
+                    <p class="para"><em>MF Charater Award 2020</em><br> Nominated by teachers and students.</p></td>
+                </tr>
+                <tr>
+              </table>
+            </div>
+          </div>
+          <div class="contentBx">
+            <div class="label">Participations</div>
+            <div class="content">
+              <table border="1" bordercolor="#fff">
+                <tr>
+                  <td><img class="landscape" src="../img/Misc/msiacamp.jpg">
+                    <img class="landscape" src="../img/Misc/msiacamp2.jpg">
+                    <p class="para"><em>Leadership camp 2018</em><br>3D 2N Malaysia camp to enhance and hone leadership and teamwork skills.</p></td>
+                </tr>              
+              </table>
+            </div>
+          </div>
+      </div>
+      </div>
+      <script>
+        const accordion = document.getElementsByClassName
+        ('contentBx');
+
+        for (i = 0; i<accordion.length; i++){
+          accordion[i].addEventListener('click', function(){
+            this.classList.toggle('active')
+          })
+        }
+      </script>
+    </div>
+    <footer id="bottom">
+      <p>Copyright &copy; 2021 UA018. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

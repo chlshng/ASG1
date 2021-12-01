@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Let's Chat</title>
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+    <script type="text/javascript">
+      function passValues()
+      {
+        var name = document.getElementById("name").value;
+        var concerns = document.getElementById("concerns").value;
+        var email = document.getElementById("email").value;
+
+        localStorage.setItem("Name",name);
+        localStorage.setItem("Concerns",concerns);
+        localStorage.setItem("Email",email);
+
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <form method="get" action="FormProcessor.html">
+
+      <nav id="navigation">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">chls's blog</label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="journey.html">My Journey</a></li>
+          <li><a class="active" href="study.html">Works</a></li>
+          <li><a class="active" href="form.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <section>
+          <div class="contentBx">
+            <div class="formBx">
+              <h2>Let's Chat!</h2>
+              <form method="get" action="FormProcessor.html">
+                <div class="inputBx">
+                  <span>Name:</span><br>
+                  <input type="text" id="name" required>
+                </div>
+                <div class="inputBx">
+                  <span>Share Your Message:</span><br>
+                  <textarea rows="8" id="concerns" required></textarea>
+                </div>
+                <div class="inputBx">
+                  <span>Email:</span><br>
+                  <input type="email" id="email" required>
+                </div>
+                <div class="inputBx">
+                  <input type="submit" value="submit" onclick="passValues();">
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="bottom">
+        <p>Copyright &copy; 2021 UA018. All Rights Reserved.</p>
+      </footer>
+  </body>
+</html>

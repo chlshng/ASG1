@@ -1,0 +1,9 @@
+#bottom{
+  text-align: center;
+  height: 50px;
+  background: #fbb7dd;
+}
+#bottom p{
+  padding-top: 15px;
+  color: black;
+}

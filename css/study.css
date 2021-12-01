@@ -1,0 +1,77 @@
+.container{
+  width: 100%;
+  height: 230vh;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/Misc/skybg.JPG);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 17%;
+  padding-right: 10%;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro{
+  background-color: #CCCCCC;
+  color: #9A1750;
+}
+
+.content1 {
+  background-color: #CCCCCC;
+  color: #9A1750;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content2 {
+  background-color: #CCCCCC;
+  color: #9A1750;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content3 {
+  background-color: #CCCCCC;
+  color: #9A1750;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content4 {
+  background-color: #CCCCCC;
+  color: #9A1750;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content5 {
+  background-color: #CCCCCC;
+  color: #9A1750;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 350px;
+}
+
+.headertxt {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+
+.mainContent {
+  padding-top: 80px;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 245px;
+  height: 250px;
+}

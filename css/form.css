@@ -1,0 +1,90 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #fbb7dd;
+  color: white;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/Misc/skybg.JPG);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 17%;
+  padding-right: 10%;
+}
+section .contentBx{
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+}
+@media screen and (max-width:800px){
+  .contentBx{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -150px;
+  }
+  .container{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  section .contactBx .formBx{
+    width: 25%
+  }
+}
+section .contactBx .formBx{
+  width: 50%
+}
+section .contentBx .formBx h2{
+  padding-top: 55px;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #ff4584;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-left: 160px;
+}
+section .contentBx .formBx .inputBx{
+  margin-bottom: 20px;
+}
+section .contentBx .formBx .inputBx span{
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx input{
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: black;
+  background: #fff;
+  border-radius: 30px;
+}
+section .contentBx .formBx .inputBx input[type="submit"]{
+  background: #ff4584;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+  background: #f53677;
+}
+textarea{
+  width: 400px;
+}

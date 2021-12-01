@@ -6,7 +6,7 @@ body{
 .container{
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/Misc/skybg.JPG);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/skybg.JPG);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
